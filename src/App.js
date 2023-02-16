@@ -1,8 +1,14 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.scss';
+import Layout from './components/Layout/Layout';
 
 function App() {
   return (
-    <div></div>
+    <>
+    <Routes>
+      <Route path="" element={<Layout />} />
+    </Routes>
+    </>
   );
 }
 
