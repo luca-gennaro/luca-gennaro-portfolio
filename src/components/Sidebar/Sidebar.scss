@@ -1,6 +1,6 @@
 .nav-bar {
     background: #181818;
-    width: 60px;
+    width: 70px;
     height: 100%;
     position: absolute;
     top: 0;
@@ -84,7 +84,7 @@ nav {
 
         &::after {
             content: "";
-            font-size: 9px;
+            font-size: 8px;
             letter-spacing: 2px;
             position: absolute;
             bottom: 0;
@@ -98,6 +98,7 @@ nav {
         &:first-child {
             &::after {
                 content: "HOME";
+                font-size: 12px;
             }
         }
 
@@ -105,13 +106,19 @@ nav {
 
     a.about-link {
         &::after {
-            content: "ABOUT";
+            content: "CHI SONO";
+        }
+    }
+
+    a.portfolio-link {
+        &::after {
+            content: "PORTFOLIO";
         }
     }
 
     a.contact-link {
         &::after {
-            content: "CONTACT";
+            content: "CONTATTI";
         }
     }
 
