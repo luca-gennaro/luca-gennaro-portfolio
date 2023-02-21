@@ -119,8 +119,9 @@
 
         .image-box {
             margin: auto;
-            width: 90%;
+            width: 70%;
             flex: none;
+            height: auto;
 
             .portfolio-image{
                 position: static;
@@ -128,7 +129,7 @@
 
             .content {
                 position: static;
-                height: 100%;
+                width: auto;
             }
 
             .btn {
