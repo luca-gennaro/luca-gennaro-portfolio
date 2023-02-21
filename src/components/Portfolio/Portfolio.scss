@@ -122,28 +122,13 @@
             width: 90%;
             flex: none;
 
+            .portfolio-image{
+                position: static;
+            }
+
             .content {
-                bottom: 10px;
-            }
-
-            &:hover .content {
-                bottom: 10px;
-            }
-
-            .title {
-                margin: 0;
-                margin-top: 0;
-                color: #fff;
-                font-size: 24px;
-                font-weight: 500;
-                line-height: 24px;
-            }
-    
-            .description {
-                font-size: 14px;
-                margin-bottom: 5px;
-                color: #fff;
-                font-weight: 200;
+                position: static;
+                height: 100%;
             }
 
             .btn {
