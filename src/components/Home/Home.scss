@@ -221,6 +221,10 @@
             transform: none;
             padding: 10px;
             box-sizing: border-box;
+
+            h1, h2 {
+                padding-left: 40px;
+            }
         }
 
         .flat-button {
@@ -245,9 +249,7 @@
             position: relative;
             margin: auto;
             width: 100%;
-            overflow: visible;
-            height: auto;
-            
+            height: 50%;
         }
 
     }
