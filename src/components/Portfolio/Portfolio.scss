@@ -112,14 +112,18 @@
     .portfolio-page{
         padding: 0;
         width: 90%;
+        overflow: initial;
 
         h1.page-title {
             margin-left: 0;
         }
+        .images-container {
+            padding-bottom: 20px;
+        }
 
         .image-box {
             margin: auto;
-            width: 70%;
+            width: 100%;
             flex: none;
             height: auto;
 
