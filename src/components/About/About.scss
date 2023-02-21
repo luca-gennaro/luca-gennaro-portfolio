@@ -1,123 +1,44 @@
-.stage-cube-cont {
-    width: 50%;
-    height: 100%;
-    top: 0;
-    padding-top: 18%;
-    margin-left: 0;
+.logo-container {
+    width: 300px;
+    height: 500px;
     position: absolute;
-    right: 0;
-    overflow: hidden;
+    top: 25%;
+    right: 12%;
+    bottom: 0;
+    left: auto;
+    margin: auto;
+    transform-style: preserve-3d;
+    animation: fadeIn 5s forwards;
+    animation-delay: 1s;
+
+
+    .solid-logo {
+        position: absolute;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: 0;
+        margin: auto;
+        width: 100%;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        background: linear-gradient(0deg, rgba(229,232,235,1) 0%, rgba(255,215,0,1) 100%);
+        box-shadow: 0 0 8px 0px lightyellow;
+        border-radius: 50%;
+    }
 }
 
-.cubespinner {
-    animation-name: spincube;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-duration: 12s;
-    transform-style: preserve-3d;
-    transform-origin: 100px 100px 0;
-    margin-left: calc(50% - 100px);
+@media screen and (max-width: 1200px) {
 
-    div {
-        position: absolute;
-        width: 200px;
-        height: 200px;
-        border: 1px solid #ccc;
-        background: rgba(255, 255, 255, 0.4);
-        font-size: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-shadow: 0 0 20px 0px lightyellow;
-        font-family: "Coolvetica";
-    }
+    .about-page{
 
-    .face1 {
-        transform: translateZ(100px);
-
-        &::after {
-            content: "HTML";
-            position: absolute;
-            font-size: large;
-            bottom: 15px;
-        }
-    }
-
-    .face2 {
-        transform: rotateY(90deg) translateZ(100px);
-
-        &::after {
-            content: "CSS";
-            position: absolute;
-            font-size: large;
-            bottom: 15px;
-        }
-    }
-
-    .face3 {
-        transform: rotateY(90deg) rotateX(90deg) translateZ(100px);   
-        
-        &::after {
-            content: "JAVASCRIPT";
-            position: absolute;
-            font-size: large;
-            bottom: 15px;
-        }
-    }
-
-    .face4 {
-        transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);  
-        
-        &::after {
-            content: "REACT.JS";
-            position: absolute;
-            font-size: large;
-            bottom: 15px;
-        }
-    }
-
-    .face5 {
-        transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);   
-        
-        &::after {
-            content: "NODE.JS";
-            position: absolute;
-            font-size: large;
-            bottom: 15px;
-        }
-    }
-
-    .face6 {
-        transform: rotateX(-90deg) translateZ(100px);   
-        
-        &::after {
-            content: "GIT";
-            position: absolute;
-            font-size: large;
-            bottom: 15px;
+        .logo-container {
+            top: -5%;
+            right: 15%;
+            margin: 0;
+            width: 25%;
+            height: 25%;
         }
     }
     
-}
-
-@keyframes spincube {
-    from,
-    to {
-        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-    }
-    16% {
-        transform: rotateZ(-90deg);
-    }
-    33% {
-        transform: rotateY(-90deg) rotateZ(90deg);
-    }
-    50% {
-        transform: rotateY(-90deg) rotateZ(90deg);
-    }
-    66% {
-        transform: rotateY(-270deg) rotateZ(90deg);
-    }
-    83% {
-        transform: rotateX(90deg);
-    }
 }
