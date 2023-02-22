@@ -28,7 +28,9 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+// MOBILE MEDIA QUERY
+
+@media screen and (max-width: 768px) {
 
     .about-page{
 
@@ -38,3 +40,17 @@
     }
     
 }
+
+// TABLET AND SMALL LAPTOP MEDIA QUERY
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+   .about-page {
+    .text-zone {
+        width: 50% !important;
+    }
+
+    .logo-container {
+        width: 250px;
+    }
+   }
+   }

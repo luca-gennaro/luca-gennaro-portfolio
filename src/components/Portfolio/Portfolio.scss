@@ -108,7 +108,7 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
     .portfolio-page{
         padding: 0;
         width: 90%;
@@ -136,18 +136,79 @@
                 width: auto;
             }
 
+            .title {
+                font-size: 18px;
+            }
+
+            .description {
+                font-size: 14px;
+                margin-top: 5px;
+            }
+
             .btn {
                 margin: 0;
+                font-size: 12px;
+                padding: 0 14px;
+                height: 35px;
             }
 
             &::after {
                 display: none;
             }
         }
+    }
+}
+
+// TABLET AND SMALL LAPTOP MEDIA QUERY
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .portfolio-page {
+        padding: 0;
+        overflow: initial;
+
+        h1.page-title {
+            margin-left: 0;
+        }
+
+        .image-box {
+            flex: none;
+            width: 45%;
+            height: 320px;
+            margin:auto;
+
+            .portfolio-image{
+                position: static;
+            }
+    
+            .content {
+                position: static;
+                width: auto;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                
+
+                .title {
+                    font-size: 18px;
+                }
+
+                .description {
+                    font-size: 14px;
+                    margin-top: 5px;
+                }
+            }
+    
+            .btn {
+                margin: 0;
+                font-size: 12px;
+                padding: 0 14px;
+                height: 35px;
+            }
+    
+            &::after {
+                display: none;
+            }
+        }
 
         
-
     }
-
-    
-}
+    }
