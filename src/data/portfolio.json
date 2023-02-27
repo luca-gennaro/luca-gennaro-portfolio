@@ -13,6 +13,13 @@
             "description": "Responsive Dashboard using Html, Css and Javascript",
             "url": "https://responsive-admin-dashboard-luca-gennaro.vercel.app/",
             "code": "https://github.com/luca-gennaro/responsive-admin-dashboard"
+        },
+        {
+            "cover": "/portfolio/3/three.png",
+            "title": "Calculator",
+            "description": "Calculator using Html, Css and Javascript",
+            "url": "https://calculator-luca-gennaro.vercel.app/",
+            "code": "https://github.com/luca-gennaro/Calculator"
         }
     ]
 }
