@@ -25,7 +25,7 @@
             "cover": "/portfolio/4/four.png",
             "title": "Weather App",
             "description": "Weather API project using Typescript, React.js and Tailwind",
-            "url": "https://weather-app-luca-gennaro.vercel.app/",
+            "url": "https://weather-forecast-luca-gennaro.vercel.app/",
             "code": "https://github.com/luca-gennaro/weather-app"
         }
     ]
