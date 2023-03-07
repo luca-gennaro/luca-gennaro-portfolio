@@ -27,6 +27,20 @@
             "description": "Weather API project using Typescript, React.js and Tailwind",
             "url": "https://weather-forecast-luca-gennaro.vercel.app/",
             "code": "https://github.com/luca-gennaro/weather-app"
+        },
+         {
+            "cover": "/portfolio/5/five.png",
+            "title": "Words Game",
+            "description": "Simple words game using React.js and Tailwind",
+            "url": "https://challenge-words-game-luca-gennaro.vercel.app/",
+            "code": "https://github.com/luca-gennaro/challenge-words-game"
+        },
+         {
+            "cover": "/portfolio/6/six.png",
+            "title": "Pixit",
+            "description": "Canvas Web App using React.js and Tailwind",
+            "url": "https://pixit-luca-gennaro.vercel.app/",
+            "code": "https://github.com/luca-gennaro/pixit"
         }
     ]
 }
