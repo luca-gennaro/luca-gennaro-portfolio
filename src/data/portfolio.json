@@ -41,6 +41,13 @@
             "description": "Canvas Web App using React.js and Tailwind",
             "url": "https://pixit-luca-gennaro.vercel.app/",
             "code": "https://github.com/luca-gennaro/pixit"
+        },
+        {
+            "cover": "/portfolio/7/seven.png",
+            "title": "Pokedex",
+            "description": "Fun Web App to search for pokemon and add them to the pokedex, using React.js and Tailwind",
+            "url": "https://pokedex-luca-gennaro.vercel.app/",
+            "code": "https://github.com/luca-gennaro/pokedex"
         }
     ]
 }
